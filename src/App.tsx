@@ -1,5 +1,3 @@
-import React from 'react'
-
 function App() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-black">
@@ -40,10 +38,10 @@ function App() {
             </p>
             
             <div className="mt-12 flex flex-wrap gap-4">
-              <button onClick={() => window.open('https://react.dev', '_blank')} className="rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-colors hover:bg-neutral-200">
+              <button onClick={() => window.open('https://vite.dev/', '_blank')} className="rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-colors hover:bg-neutral-200">
                 Get Started
               </button>
-              <button onClick={() => window.open('https://tailwindcss.com', '_blank')} className="rounded-full bg-transparent px-7 py-3.5 text-sm font-medium text-white ring-1 ring-white/20 transition-colors hover:bg-white/10">
+              <button onClick={() => window.open('https://react.dev/', '_blank')} className="rounded-full bg-transparent px-7 py-3.5 text-sm font-medium text-white ring-1 ring-white/20 transition-colors hover:bg-white/10">
                 Learn More
               </button>
             </div>

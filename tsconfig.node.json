@@ -19,7 +19,7 @@
     "noUnusedParameters": true,
 
     // @ts-ignore - this is a vite thing
-    "erasableSyntaxOnly": true,
+    // "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
