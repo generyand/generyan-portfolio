@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button"
+
 function App() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-black">
@@ -23,27 +25,33 @@ function App() {
         <div className="w-full max-w-screen-xl px-6 mx-auto">
           <div className="md:max-w-2xl">
             <div className="mb-4 text-neutral-500">
-              <span className="font-medium">Vite</span> / Typescript
+              <span className="font-medium">Portfolio</span> / Digital Craftsman
             </div>
             
             <h1 className="font-sans text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight text-white">
-              <span className="inline-block">React 19</span>
+              <span className="inline-block">Gene Ryan</span>
               <span className="ml-4 text-neutral-500">|</span>
-              <span className="ml-4 text-neutral-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Next Generation</span>
+              <span className="ml-4 text-neutral-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Depalubos</span>
             </h1>
             
             <p className="mt-8 text-lg leading-relaxed text-neutral-400 max-w-md">
-              Built to make you extraordinarily productive. 
-              The best way to code with modern web technologies.
+              Crafting digital experiences that bridge imagination and reality. 
+              Where elegant code meets innovative design.
             </p>
             
             <div className="mt-12 flex flex-wrap gap-4">
-              <button onClick={() => window.open('https://vite.dev/', '_blank')} className="rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-colors hover:bg-neutral-200">
-                Get Started
-              </button>
-              <button onClick={() => window.open('https://react.dev/', '_blank')} className="rounded-full bg-transparent px-7 py-3.5 text-sm font-medium text-white ring-1 ring-white/20 transition-colors hover:bg-white/10">
-                Learn More
-              </button>
+              <Button 
+                onClick={() => window.open('#projects', '_self')} 
+                className="rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-colors hover:bg-neutral-200"
+              >
+                View Projects
+              </Button>
+              <Button 
+                onClick={() => window.open('#contact', '_self')} 
+                className="rounded-full bg-transparent px-7 py-3.5 text-sm font-medium text-white ring-1 ring-white/20 transition-colors hover:bg-white/10"
+              >
+                Get in Touch
+              </Button>
             </div>
           </div>
         </div>
