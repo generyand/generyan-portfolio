@@ -24,19 +24,18 @@ function App() {
       <div className="relative z-20 flex h-screen items-center">
         <div className="w-full max-w-screen-xl px-6 mx-auto">
           <div className="md:max-w-2xl">
-            <div className="mb-4 text-neutral-500">
-              <span className="font-medium">Portfolio</span> / Digital Craftsman
-            </div>
+            {/* <p className="text-neutral-500 font-medium mb-2">
+              Digital Craftsman
+            </p> */}
             
             <h1 className="font-sans text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight text-white">
               <span className="inline-block">Gene Ryan</span>
-              <span className="ml-4 text-neutral-500">|</span>
+              {/* <span className="ml-4 text-neutral-500">|</span> */}
               <span className="ml-4 text-neutral-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Depalubos</span>
             </h1>
             
             <p className="mt-8 text-lg leading-relaxed text-neutral-400 max-w-md">
-              Crafting digital experiences that bridge imagination and reality. 
-              Where elegant code meets innovative design.
+              "Somebody stop me... from over-engineering simple solutions."  <span className="text-sm opacity-75 mt-2">— My self</span>
             </p>
             
             <div className="mt-12 flex flex-wrap gap-4">
